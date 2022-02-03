@@ -1,8 +1,32 @@
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: User
 metadata:
-  name: wouter-catalog-test
-  description: Wouter testing a backstage item
+  name: wouter.smet
 spec:
-  type: database
-  owner: team-wouter
+  profile:
+    displayName: Wouter Smet
+    email: breanna-davison@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-a]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: stijn.haus
+spec:
+  profile:
+    displayName: Stijn Haus
+    email: janelle-dawe@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+  memberOf: [team-a]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: wout.lagae
+spec:
+  profile:
+    displayName: Wout Lagae
+    email: nigel-manning@example.com
+    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+  memberOf: [team-a]
