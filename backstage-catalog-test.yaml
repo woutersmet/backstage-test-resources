@@ -1,32 +1,10 @@
+# Example catalog-info.yaml entity definition file
 apiVersion: backstage.io/v1alpha1
-kind: User
+kind: Component
 metadata:
-  name: wouter.smet
+  name: crm-backend
+  description: CRM Backend
+  annotations:
+      gitlab.com/project-slug: 'showpad/crm-backend' # group_name/project_name
 spec:
-  profile:
-    displayName: Wouter Smet
-    email: breanna-davison@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-  memberOf: [team-a]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: stijn.haus
-spec:
-  profile:
-    displayName: Stijn Haus
-    email: janelle-dawe@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
-  memberOf: [team-a]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: wout.lagae
-spec:
-  profile:
-    displayName: Wout Lagae
-    email: nigel-manning@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  type: service
