@@ -1,10 +1,10 @@
-# Example catalog-info.yaml entity definition file
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: crm-backend
-  description: CRM Backend
-  annotations:
-      gitlab.com/project-slug: 'showpad/crm-backend' # group_name/project_name
+  name: playback-sdk-woutertest
+  description: Wouter Testing A Component Audio and video playback SDK
 spec:
-  type: service
+  type: library
+  lifecycle: experimental
+  owner: team-c
+  system: audio-playback
