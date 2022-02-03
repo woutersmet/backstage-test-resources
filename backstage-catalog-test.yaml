@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: wouter-catalog-test
+  description: Wouter testing a backstage item
+spec:
+  type: database
+  owner: team-wouter
