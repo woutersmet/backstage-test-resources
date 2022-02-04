@@ -10,3 +10,16 @@ spec:
   owner: team-c
   system: audio-playback
   type: library
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata: 
+  annotations: 
+    gitlab.com/project-slug: internal-tools/backstage-io-2022
+  description: "Wouter Component 3"
+  name: wouter-test-component-3
+spec: 
+  lifecycle: experimental
+  owner: team-c
+  system: audio-playback
+  type: service
