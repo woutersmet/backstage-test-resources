@@ -3,8 +3,8 @@ kind: Component
 metadata: 
   annotations: 
     gitlab.com/project-slug: internal-tools/backstage-io-2022
-  description: "Wouter Testing A Component Audio and video playback SDK"
-  name: playback-sdk-woutertest
+  description: "Wouter ANOTHER Testing A Component Audio and video playback SDK"
+  name: playback-sdk-woutertest-2
 spec: 
   lifecycle: experimental
   owner: team-c
